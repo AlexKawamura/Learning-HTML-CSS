@@ -1,0 +1,24 @@
+body {
+    background-color: #F2FFFC;
+    font-family: "Times New Roman", "Baskerville", serif;
+    /*font-size: 120%; ou font-size: 20px;*/
+}
+main h1 {
+    font-size: 60px;
+    /*color: #FFFFFF; ou color: #FFF;*/
+    color: rgb(255, 255, 255);
+    /*background-color: rgb(133, 25, 68);*/
+    background-color: #851944;
+    text-align: center;
+    /*font-family: "Arial";*/
+}
+main h2 {
+    font-size: 40px;
+    /*font-family: "Arial", sans-serif;*/
+}
+main h1, h2 {
+    font-family: "Arial", sans-serif;
+}
+p {
+    text-align: justify;
+}

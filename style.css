@@ -1,10 +1,11 @@
 body {
     background-color: #F2FFFC;
-    font-family: "Times New Roman", "Baskerville", serif;
-    /*font-size: 120%; ou font-size: 20px;*/
+    font-family: "Crimson Text", "Times New Roman", "Baskerville", serif;
+    font-size: 120%; /*ou font-size: 20px;*/
+	line-height: 1.5;
 }
 
-main h1 {
+.titulo-principal {
     font-size: 60px;
     /*color: #FFFFFF; ou color: #FFF;*/
     color: rgb(255, 255, 255);
@@ -21,7 +22,7 @@ main a {
     color: #851944;
 }
 
-main div {
+.conteudo {
     width: 720px;
     margin: auto;
     padding: 30px 0;
@@ -34,9 +35,9 @@ h2 {
     /*font-family: "Arial", sans-serif;*/
 }
 
-main h1,
+.titulo-principal,
 h2 {
-    font-family: "Arial", sans-serif;
+    font-family: "Open Sans Condensed", "Arial", sans-serif;
 }
 
 p {
@@ -44,7 +45,7 @@ p {
     margin: 20px 0;
 }
 
-blockquote {
+.citacoes-profissionais {
     background-color: #D9E5E3;
     border: 10px solid transparent;
     border-bottom-color: #333;
@@ -54,7 +55,7 @@ blockquote {
     box-sizing: border-box;
 }
 
-aside {
+.navegacao-site {
     background-color: #3C1D3D;
     text-align: center;
 }
@@ -73,7 +74,11 @@ aside h1{
     margin-bottom: 25px;
 }
 
-aside li{
+/*aside li{
+    display: inline-block;
+}*/
+
+.icones-sociais li{
     display: inline-block;
 }
 
@@ -81,14 +86,14 @@ footer {
     background-color: rgb(0, 0, 0);
 }
 
-blockquote,
-aside,
+.citacoes-profissionais,
+.navegacao-site,
 footer {
     padding: 20px;
 }
 
 footer,
-aside,
+.navegacao-site,
 nav a {
     color: #F2FFFC;
 }
@@ -99,4 +104,19 @@ strong{
 
 em{
     font-style: italic;
+}
+
+article{
+    padding: 30px;
+    border-bottom: 1px solid #CCC;
+    margin-bottom: 20px;
+}
+
+.leia-mais{
+    padding: 8px;
+    margin: 16px;
+    display: block;
+    font-size: 24px;
+    text-align: center;
+    background-color: #E6E7E8;
 }

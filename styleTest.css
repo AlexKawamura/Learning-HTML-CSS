@@ -1,0 +1,9 @@
+main div{
+    border-top: 30px solid transparent;
+    border-left: 30px solid red;
+    border-right: 30px solid red;
+    border-bottom: 30px solid transparent;
+    width: 10px;
+    height: 30px;
+    background-color: brown;
+}

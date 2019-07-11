@@ -3,6 +3,7 @@ body {
     font-family: "Times New Roman", "Baskerville", serif;
     /*font-size: 120%; ou font-size: 20px;*/
 }
+
 main h1 {
     font-size: 60px;
     /*color: #FFFFFF; ou color: #FFF;*/
@@ -13,52 +14,89 @@ main h1 {
     /*font-family: "Arial";*/
     padding: 25px;
     margin: 0px;
+    border-bottom: 10px solid #000000;
 }
-main h2 {
-    font-size: 40px;
-    /*font-family: "Arial", sans-serif;*/
-}
-main h1, h2 {
-    font-family: "Arial", sans-serif;
-}
-p {
-    text-align: justify;
-}
-blockquote{
-    background-color: #D9E5E3;
-    border: 10px solid #C2CCCA;
-    width: 250px;
-    margin: 0px;
-    box-sizing: border-box;
-}
-aside{
-    background-color: #3C1D3D;
-}
-aside a{
-    color: inherit;
-    font-family: "Open Sans Condensed", sans-serif;
-}
-footer{
-    background-color: rgb(0, 0, 0);
-}
-blockquote, aside, footer{
-    padding: 20px;
-}
-footer, aside, nav a {
-    color: #F2FFFC;
-}
-main a{
+
+main a {
     color: #851944;
 }
-main div{
+
+main div {
     width: 720px;
     margin: auto;
+    padding: 30px 0;
     /*margin-left: auto;
     margin-right: auto;*/
 }
+
+h2 {
+    font-size: 30px;
+    /*font-family: "Arial", sans-serif;*/
+}
+
+main h1,
+h2 {
+    font-family: "Arial", sans-serif;
+}
+
+p {
+    text-align: justify;
+    margin: 20px 0;
+}
+
+blockquote {
+    background-color: #D9E5E3;
+    border: 10px solid transparent;
+    border-bottom-color: #333;
+    border-right-color: #FFF;
+    width: 250px;
+    margin: 20px 40px;
+    box-sizing: border-box;
+}
+
 aside {
+    background-color: #3C1D3D;
     text-align: center;
 }
-aside ul{
+
+aside a {
+    color: inherit;
+    font-family: "Open Sans Condensed", sans-serif;
+}
+
+aside ul {
     list-style-type: none;
+}
+
+aside h1{
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+
+aside li{
+    display: inline-block;
+}
+
+footer {
+    background-color: rgb(0, 0, 0);
+}
+
+blockquote,
+aside,
+footer {
+    padding: 20px;
+}
+
+footer,
+aside,
+nav a {
+    color: #F2FFFC;
+}
+
+strong{
+    font-weight: bold;
+}
+
+em{
+    font-style: italic;
 }

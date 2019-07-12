@@ -57,25 +57,6 @@ p {
     margin: 20px 0;
 }
 
-.citacoes-fiat, .citacoes-petrobras {
-    background-color: #D9E5E3;
-    border: 10px solid #C2CCCA;
-    /*border-bottom-color: #333;
-    border-right-color: #FFF;*/
-    width: 250px;
-    margin: 20px 40px;
-    box-sizing: border-box;
-    font-style: italic;
-}
-
-.citacoes-fiat {
-    float: right;
-}
-
-.citacoes-petrobras {
-    float: left;
-}
-
 .navegacao-site {
     background-color: #3C1D3D;
     text-align: center;
@@ -101,7 +82,7 @@ p {
     display: inline-block;
 }*/
 
-img {
+.foto-joao {
     width: 300px;
     position: absolute;
     top: 0;
@@ -114,7 +95,7 @@ img {
     top: 300px;
 }
 
-img, .navegacao-site {
+.foto-joao, .navegacao-site {
     float: right;
     border-left: 10px solid black;
     border-bottom: 10px solid black;
@@ -133,15 +114,15 @@ img, .navegacao-site {
 }
 
 .github {
-    background-image: url(github.png);
+    background-image: url(../img/github.png);
 }
 
 .twitter {
-    background-image: url(twitter.png);
+    background-image: url(../img/twitter.png);
 }
 
 .linkedin {
-    background-image: url(linkedin.png);
+    background-image: url(../img/linkedin.png);
 }
 
 footer {
@@ -154,7 +135,6 @@ footer {
     box-sizing: border-box;
 }
 
-.citacoes-fiat, .citacoes-petrobras,
 .navegacao-site,
 footer {
     padding: 20px;
@@ -176,19 +156,4 @@ strong{
 
 em{
     font-style: italic;
-}
-
-article{
-    padding: 30px;
-    border-bottom: 1px solid #CCC;
-    margin-bottom: 20px;
-}
-
-.leia-mais{
-    padding: 8px;
-    margin: 16px;
-    display: block;
-    font-size: 24px;
-    text-align: center;
-    background-color: #E6E7E8;
 }

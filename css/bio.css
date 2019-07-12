@@ -1,0 +1,19 @@
+.citacoes-fiat, .citacoes-petrobras {
+    background-color: #D9E5E3;
+    border: 10px solid #C2CCCA;
+    /*border-bottom-color: #333;
+    border-right-color: #FFF;*/
+    width: 250px;
+    margin: 20px 40px;
+    box-sizing: border-box;
+    font-style: italic;
+    padding: 20px;
+}
+
+.citacoes-fiat {
+    float: right;
+}
+
+.citacoes-petrobras {
+    float: left;
+}

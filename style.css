@@ -6,15 +6,16 @@ body {
 }
 
 .titulo-principal {
-    font-size: 60px;
-    /*color: #FFFFFF; ou color: #FFF;*/
-    color: rgb(255, 255, 255);
     /*background-color: rgb(133, 25, 68);*/
+    /*margin: 0px;*/
+    /*color: #FFFFFF; ou color: #FFF;*/
+    /*font-family: "Arial";*/
+    font-size: 60px;
+    color: rgb(255, 255, 255);
     background-color: #851944;
     text-align: center;
-    /*font-family: "Arial";*/
     padding: 25px;
-    margin: 0px;
+	text-transform: uppercase;
     border-bottom: 10px solid #000000;
 }
 
@@ -23,8 +24,9 @@ h1 {
 }
 
 main {
-    width: 80%;
+    width: 85%;
     float: left;
+    padding-bottom: 80px;
 }
 
 main a {
@@ -32,7 +34,7 @@ main a {
 }
 
 .conteudo {
-    width: auto;
+    width: 720px;
     margin: auto;
     padding: 30px 0;
     /*margin-left: auto;
@@ -63,6 +65,7 @@ p {
     width: 250px;
     margin: 20px 40px;
     box-sizing: border-box;
+    font-style: italic;
 }
 
 .citacoes-fiat {
@@ -76,7 +79,6 @@ p {
 .navegacao-site {
     background-color: #3C1D3D;
     text-align: center;
-    clear: right;
     box-sizing: border-box;
     position: relative;
 }
@@ -99,9 +101,24 @@ p {
     display: inline-block;
 }*/
 
+img {
+    width: 300px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.navegacao-site {
+    width: 15%;
+    position: relative;
+    top: 300px;
+}
+
 img, .navegacao-site {
-    width: 20%;
     float: right;
+    border-left: 10px solid black;
+    border-bottom: 10px solid black;
+    box-sizing: border-box;
 }
 
 .icones-sociais li{
@@ -130,6 +147,11 @@ img, .navegacao-site {
 footer {
     background-color: rgb(0, 0, 0);
     clear: both;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 .citacoes-fiat, .citacoes-petrobras,

@@ -10,13 +10,13 @@ body {
     /*margin: 0px;*/
     /*color: #FFFFFF; ou color: #FFF;*/
     /*font-family: "Arial";*/
-    font-size: 60px;
+    font-size: 3em;
     color: rgb(255, 255, 255);
     background-color: #851944;
     text-align: center;
-    padding: 25px;
+    padding: 1.25rem;
 	text-transform: uppercase;
-    border-bottom: 10px solid #000000;
+    border-bottom: .5rem solid #000000;
 }
 
 h1 {
@@ -26,7 +26,7 @@ h1 {
 main {
     width: 85%;
     float: left;
-    padding-bottom: 80px;
+    padding-bottom: 4em;
 }
 
 main a {
@@ -34,15 +34,15 @@ main a {
 }
 
 .conteudo {
-    width: 720px;
+    width: 80ch;
     margin: auto;
-    padding: 30px 0;
+    padding: 1.5em 0;
     /*margin-left: auto;
     margin-right: auto;*/
 }
 
 h2 {
-    font-size: 30px;
+    font-size: 1.5em;
     /*font-family: "Arial", sans-serif;*/
     clear: both;
 }
@@ -54,7 +54,7 @@ h2 {
 
 p {
     text-align: justify;
-    margin: 20px 0;
+    margin: 1em 0;
 }
 
 .navegacao-site {
@@ -74,8 +74,8 @@ p {
 }
 
 .navegacao-site h1{
-    font-size: 30px;
-    margin-bottom: 25px;
+    font-size: 1.5em;
+    margin-bottom: 1em;
 }
 
 /*aside li{
@@ -83,7 +83,7 @@ p {
 }*/
 
 .foto-joao {
-    width: 300px;
+    height: 300px;
     position: absolute;
     top: 0;
     right: 0;
@@ -97,8 +97,8 @@ p {
 
 .foto-joao, .navegacao-site {
     float: right;
-    border-left: 10px solid black;
-    border-bottom: 10px solid black;
+    border-left: .5em solid black;
+    border-bottom: .5em solid black;
     box-sizing: border-box;
 }
 
@@ -137,7 +137,7 @@ footer {
 
 .navegacao-site,
 footer {
-    padding: 20px;
+    padding: 1em;
 }
 
 nav a {

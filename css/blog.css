@@ -1,7 +1,13 @@
-article{
-    padding: 1.5em;
-    border-bottom: 1px solid #CCC;
-    margin-bottom: 1em;
+article + article{
+    padding-top: 1em;
+    margin-top: 1.5em;
+    background-image: linear-gradient(to right, transparent, black, transparent);
+    background-repeat: no-repeat;
+    background-size: 100% 1px;
+    background-position: top center;
+    background-image: linear-gradient(to right, rgba(200, 200, 200, 0)
+                                                rgba(200, 200, 200, 1)
+                                                rgba(200, 200, 200, 0));
 }
 
 .leia-mais{

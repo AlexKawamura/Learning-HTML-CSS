@@ -4,7 +4,6 @@ body {
     font-size: 120%; /*ou font-size: 20px;*/
 	line-height: 1.5;
 }
-
 .titulo-principal {
     /*background-color: rgb(133, 25, 68);*/
     /*margin: 0px;*/
@@ -17,29 +16,23 @@ body {
     padding: 1.25rem;
     border-bottom: .5rem solid #000000;
 }
-
 h1 {
     text-transform: uppercase;
     text-shadow:5px 5px #000;
 }
-
 .conteudo-principal {
     padding-bottom: 4em;
 }
-
 main {
     width: 85%;
     float: left;
 }
-
 main h1 {
 	text-transform: uppercase;
 }
-
 main a {
     color: #851944;
 }
-
 .conteudo {
     width: 80ch;
     margin: auto;
@@ -47,99 +40,77 @@ main a {
     /*margin-left: auto;
     margin-right: auto;*/
 }
-
 h2 {
     font-size: 1.5em;
     /*font-family: "Arial", sans-serif;*/
     clear: both;
 }
-
 .titulo-principal,
 h2 {
     font-family: "Open Sans Condensed", "Arial", sans-serif;
 }
-
 p {
     text-align: justify;
     margin: 1em 0;
 }
-
 .navegacao-site {
     background-color: #3C1D3D;
     text-align: center;
     box-sizing: border-box;
     position: relative;
 }
-
 .navegacao-site a {
     color: inherit;
     font-family: "Open Sans Condensed", sans-serif;
 }
-
 .navegacao-site ul {
     list-style-type: none;
 }
-
-.navegacao-site h1{
+.navegacao-site h1 {
     font-size: 1.5em;
     margin-bottom: 1em;
 }
-
-/*aside li{
+/*aside li {
     display: inline-block;
 }*/
-
 .foto-joao {
     height: 300px;
     position: absolute;
     top: 0;
     right: 0;
 }
-
 .navegacao-site {
     width: 15%;
     position: relative;
     top: 300px;
 }
-
-.foto-joao, .navegacao-site {
+.foto-joao,
+.navegacao-site {
     float: right;
     border-left: .5em solid black;
     border-bottom: .5em solid black;
     box-sizing: border-box;
 }
-
-.icones-sociais li{
+.icones-sociais li {
     display: inline-block;
 }
-
 .icones-sociais a {
     width: 40px;
     height: 40px;
     display: block;
     text-indent: -99999px;
 }
-
 .github {
     background-image: url(../img/github.png);
 }
-
 .twitter {
     background-image: url(../img/twitter.png);
 }
-
 .linkedin {
     background-image: url(../img/linkedin.png);
 }
-
 .rodape {
-    background-image: radial-gradient(ellipse at left bottom, 
-        rgba(60, 29, 61, 0.8), 
-        rgba(60, 29, 61, 0.8) 65%,
-        black 65%, 
-        black 70%, 
-        transparent 70%, 
-        transparent);
+    background-image: radial-gradient(ellipse at left bottom, rgba(60, 29, 61, 0.8), rgba(60, 29, 61, 0.8) 65%, black 65%, black 70%, transparent 70%, transparent);
     width: 100%;
     background-size: 30% 100%;
     background-repeat: no-repeat;
@@ -151,33 +122,30 @@ p {
     box-sizing: border-box;
     color: #000;
 }
-
 .navegacao-site,
 .rodape {
     padding: 1em;
 }
-
 nav a {
     text-transform: lowercase;
 }
-
 .navegacao-site,
 nav a {
     color: #F2FFFC;
 }
-
-.navegacao-site a:hover, .navegacao-site a:focus {
+.navegacao-site a:hover,
+.navegacao-site a:focus {
     text-shadow: 0 0 2px pink;
 }
-
-strong{
+strong {
     font-weight: bold;
 }
-
-em{
+em {
     font-style: italic;
 }
-
-main a:hover, main a:focus, footer a:hover, footer a:focus {
+main a:hover,
+main a:focus,
+footer a:hover,
+footer a:focus {
     color: red;
 }

@@ -11,7 +11,7 @@
 }
 .citacoes-bio:hover,
 .citacoes-bio:focus {
-    box-shadow: 0 0 0 99999px rgba(0,0,0,.8);
+    box-shadow: 0 0 0 99999px rgba(0,0,0,.4);
 }
 .citacoes-bio:nth-of-type(odd) {
     float: right;
@@ -28,4 +28,22 @@
 .citacoes-bio:nth-of-type(even):hover,
 .citacoes-bio:nth-of-type(even):focus {
     transform: scale(1.2) rotate(-5deg);
+}
+.conteudo > p::first-letter {
+    font-size: 200%;
+    font-weight: bold;
+    color: #3C1D3D;
+    text-shadow: 1px 1px #000;
+    margin-right: .2ch;
+    line-height: 1;
+}
+.citacoes-bio > p {
+    position: relative;
+}
+.citacoes-bio:before {
+    content: '"';
+    color: rgba(187, 187, 187, 0.219);
+    font-size: 10em;
+    position: absolute;
+    line-height: .9;
 }

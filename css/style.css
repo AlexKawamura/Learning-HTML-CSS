@@ -166,10 +166,18 @@ nav a {
     color: #F2FFFC;
 }
 
+.navegacao-site a:hover, .navegacao-site a:focus {
+    text-shadow: 0 0 2px pink;
+}
+
 strong{
     font-weight: bold;
 }
 
 em{
     font-style: italic;
+}
+
+main a:hover, main a:focus, footer a:hover, footer a:focus {
+    color: red;
 }

@@ -1,4 +1,4 @@
-.citacoes-fiat, .citacoes-petrobras {
+.citacoes-bio {
     background-color: #D9E5E3;
     border: 0.5em solid #C2CCCA;
     /*border-bottom-color: #333;
@@ -10,13 +10,27 @@
     padding: 1em;
 }
 
-.citacoes-fiat {
+.citacoes-bio:hover,
+.citacoes-bio:focus {
+    box-shadow: 0 0 0 99999px rgba(0,0,0,.8);
+}
+
+.citacoes-bio:nth-of-type(odd) {
     float: right;
     margin-right: 0;
 }
 
-.citacoes-petrobras {
+.citacoes-bio:nth-of-type(odd):hover,
+.citacoes-bio:nth-of-type(odd):focus {
+    transform: scale(1.2) rotate(5deg);
+}
+
+.citacoes-bio:nth-of-type(even) {
     float: left;
-    
     margin-left: 0;
+}
+
+.citacoes-bio:nth-of-type(even):hover,
+.citacoes-bio:nth-of-type(even):focus {
+    transform: scale(1.2) rotate(-5deg);
 }

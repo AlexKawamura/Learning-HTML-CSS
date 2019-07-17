@@ -238,18 +238,27 @@ body {
     position: relative;
     top: -2em;
 }
-.blog .mais-recente {
+/*.blog .mais-recente {
     background-color: #F2FFFC;
 }
 .blog .mais-recente a {
     color: #F26;
-}
+}*/
 .blog li {
     width: 30%;
 }
 .blog li a {
     color: #FCF;
     padding: .5em;
+    display: block;
+}
+.blog a:hover,
+.blog a:focus {
+    background-color: #F2FFFC;
+    color: #F26;
+}
+.blog a:hover + .inicio-post,
+.blog a:focus + .inicio-post {
     display: block;
 }
 .inicio-post {
@@ -259,8 +268,9 @@ body {
     top: 4em;
     left: 30%;
     right: 4em;
-    height: 8em;
+    height: 10em;
     padding: 1.5em;
+    display: none;
 }
 footer {
     background-color: rgba(0, 0, 0);

@@ -8,10 +8,13 @@
     box-sizing: border-box;
     font-style: italic;
     padding: 1em;
+    transition: box-shadow 1s, transform 1s;
+    transition-delay: 1s, 0s;
 }
 .citacoes-bio:hover,
 .citacoes-bio:focus {
     box-shadow: 0 0 0 99999px rgba(0,0,0,.4);
+    transition-delay: 0s, 1s;
 }
 .citacoes-bio:nth-of-type(odd) {
     float: right;

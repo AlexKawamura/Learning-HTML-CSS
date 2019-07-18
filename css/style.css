@@ -24,7 +24,7 @@ h1 {
     padding-bottom: 4em;
 }
 main {
-    width: 85%;
+    width: calc(100% - 0.9 * 300px);
     float: left;
 }
 main h1 {
@@ -58,6 +58,8 @@ p {
     text-align: center;
     box-sizing: border-box;
     position: relative;
+    width: calc(0.9 * 300px);
+    top: 300px;
 }
 .navegacao-site a {
     color: inherit;
@@ -78,11 +80,6 @@ p {
     position: absolute;
     top: 0;
     right: 0;
-}
-.navegacao-site {
-    width: 15%;
-    position: relative;
-    top: 300px;
 }
 .foto-joao,
 .navegacao-site {

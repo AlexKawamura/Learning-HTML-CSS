@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <link rel="icon" href="img/favicon.png">
     <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/bio.css">
+    <link rel="stylesheet" href="css/contato.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Crimson+Text:400,400italic,600">
     <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans+Condensed:700">
@@ -18,7 +18,7 @@
                 <fieldset>
                     <legend>Seus dados</legend>
                     <label for="nome">Nome</label>
-                    <input id="nome" type="text" placeholder="Digite seu nome completo" required autofocus>
+                    <input id="nome" type="text" placeholder="Digite seu nome completo" pattern="[A-Za-z ']{4,}" title="Contendo no mínimo 4 caracteres e sem números" required autofocus>
                     <label for="email">E-mail</label>
                     <input id="email" type="email" name="email-contato" placeholder="exemplo@email.com" required >
                 </fieldset>
@@ -36,7 +36,7 @@
                         <label>
                             <input type="radio" name="assunto" value="Outro" id="outro">
                             <label for="outro">Outro</label>
-                            <input type="text">
+                            <input type="text" name="outro-assunto">
                         </label>
                     </fieldset>
                 </fieldset>

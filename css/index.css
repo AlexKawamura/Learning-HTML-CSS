@@ -45,6 +45,7 @@ html, body {
     overflow-x: hidden;
 }
 body {
+    display: block;
     -webkit-perspective: 6px;
             perspective: 6px;
     -webkit-perspective-origin: 50% 160px;
@@ -247,12 +248,22 @@ body {
     color: #FFF;
 }
 .trabalhos ul {
-    overflow: hidden;
-    border: .5em solid black;
+    /*overflow: hidden;*/
+    display: flex;
 }
 .trabalhos li {
-    float: left;
-    width: 33.333%;
+    border: .5em solid black;
+    flex: 1;
+}
+.trabalhos li:first-child {
+    order: 2;
+    transform: scale(1.2);
+}
+.trabalhos li:nth-child(2) {
+    order: 1;
+}
+.trabalhos li:last-child {
+    order: 3;
 }
 .trabalhos img {
     width: 100%;
